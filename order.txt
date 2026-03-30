@@ -1,0 +1,2 @@
+date:1 interval:1 staID:1 staName:zhangsan roomID:1 status:1
+date:3 interval:2 staID:2 staName:lisi roomID:3 status:-1
