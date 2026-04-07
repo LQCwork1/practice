@@ -1,4 +1,4 @@
-#include"manager.h"
+﻿#include"manager.h"
 
 
 //默认构造	

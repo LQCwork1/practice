@@ -1,4 +1,4 @@
-#include"staff.h"
+﻿#include"staff.h"
 
 //默认构造
 Staff::Staff() 

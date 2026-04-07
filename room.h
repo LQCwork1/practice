@@ -1,4 +1,4 @@
-#pragma once
+﻿#pragma once
 #include <iostream>//标准输入输出流
 using namespace std;//标准命名空间
 
