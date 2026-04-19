@@ -198,7 +198,7 @@ void Admin::showPerson()
     system("cls");
 
 }
-//查看机房信息
+//查看房间信息
 void Admin::showRoom()
 {
     cout << "房间的信息如下：" << endl;
