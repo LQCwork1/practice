@@ -35,7 +35,7 @@ OrderFile::OrderFile()
 			m.insert(make_pair(key, value));
 		}
 		//截取时间段
-		pos = interval.find(":");//返回位置 4
+		pos = interval.find(":");//返回位置 
 		if (pos != -1)//防止pos没找到冒号 没找到会返回-1
 		{
 			key = interval.substr(0, pos);//截取冒号前面的值
@@ -44,7 +44,7 @@ OrderFile::OrderFile()
 			m.insert(make_pair(key, value));
 		}
 		//截取编号
-		pos = staID.find(":");//返回位置 4
+		pos = staID.find(":");//返回位置 
 		if (pos != -1)//防止pos没找到冒号 没找到会返回-1
 		{
 			key = staID.substr(0, pos);//截取冒号前面的值
@@ -53,7 +53,7 @@ OrderFile::OrderFile()
 			m.insert(make_pair(key, value));
 		}
 		//截取姓名
-		pos = staName.find(":");//返回位置 4
+		pos = staName.find(":");//返回位置 
 		if (pos != -1)//防止pos没找到冒号 没找到会返回-1
 		{
 			key = staName.substr(0, pos);//截取冒号前面的值
@@ -62,7 +62,7 @@ OrderFile::OrderFile()
 			m.insert(make_pair(key, value));
 		}
 		//截取房间号
-		pos = roomID.find(":");//返回位置 4
+		pos = roomID.find(":");//返回位置 
 		if (pos != -1)//防止pos没找到冒号 没找到会返回-1
 		{
 			key = roomID.substr(0, pos);//截取冒号前面的值
@@ -71,7 +71,7 @@ OrderFile::OrderFile()
 			m.insert(make_pair(key, value));
 		}
 		//截取状态
-		pos = status.find(":");//返回位置 4
+		pos = status.find(":");//返回位置 
 		if (pos != -1)//防止pos没找到冒号 没找到会返回-1
 		{
 			key = status.substr(0, pos);//截取冒号前面的值
