@@ -27,7 +27,7 @@ public:
 	void addPerson();
 	//查看账号
 	void showPerson();
-	//查看机房信息
+	//查看房间信息
 	void showRoom();
 	//清空预约记录
 	void cleanFile();
